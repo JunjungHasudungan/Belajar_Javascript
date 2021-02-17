@@ -1,30 +1,24 @@
 		// variable x with value
-		var x = 10;
-		x += 5;
-		// variable y with value and operation
-		var y = 19;
-		y -= 3;
-		// variable a with value and operation
-		a = 8;
-		a *= 3;
-		// create variable b with value and operation
-		b = 18;
-		b /= 3;
-		// create variable v with value and operator
-		c = 25;
-		c %= 3;
+		var a = 9;
+		var b = 5;
+		document.write(`Learning using operator <br><br>`)
+		document.write(`nilai a = ${a}<br>nilai b = ${b}<br><br>`)
 
-	// inject to innerHTML by id "operator1"
-	document.getElementById("operator1").innerHTML = x;
-	
-	// inject to innerHTML by id "operator2"
-	document.getElementById("operator2").innerHTML = y;
+		//  using += ;
+		var hasil = a += b;
+		document.write(` Using += <br> ${hasil}<br> <br>`)
 
-	// inject to innerHTML by id "operator3"
-	document.getElementById("operator3").innerHTML = a;
+		// using -= 
+		var hasil = a -= b;
+		document.write(`using -= <br> ${hasil}<br><br>`)
 	
-	// inject to innerHTML by id "operator4"
-	document.getElementById("operator4").innerHTML = b;
+ 		// using *=
+		var result = a *= b;
+		document.write(`using *= <br>  ${result}<br><br>`)
 	
-	// inject to innerHTML by id "operator5"
-	document.getElementById("operator5").innerHTML = c;
+		// using /=
+		var result = a /= b;
+		document.write(`using /= <br>${result}<br><br>`)
+		// 	using %= 
+		var result = a %= b;
+		document.write(`using %= <br>${result}`)
